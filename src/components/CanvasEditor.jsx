@@ -64,6 +64,8 @@ useEffect(() => {
         if (data.fabricData) {
           // 2. Modern Fabric v6 async promise pattern to prevent freezing
           const parsed = typeof data.fabricData === 'string' ? JSON.parse(data.fabricData) : data.fabricData;
+          // Older saves carried a solid white background; the grid is CSS now, so drop it
+          delete parsed.background;
           if (parsed.objects?.length > 0) {
             await fabricCanvasRef.current.loadFromJSON(parsed);
             fabricCanvasRef.current.renderAll();
