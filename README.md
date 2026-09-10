@@ -40,8 +40,8 @@ Plain CSS, no component library. The whole thing is about six source files.
 **1. Clone and install**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/youknowhim/2D-Canvas.git
+cd 2D-Canvas
 npm install
 ```
 
