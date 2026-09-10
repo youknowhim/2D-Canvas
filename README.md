@@ -2,8 +2,8 @@
 
 A browser-based canvas where you can drop in shapes and text, draw with a pen, and save the whole thing to a link. Open that link later (or on another machine) and carry on where you left off. No login, nothing to install.
 
-**Live demo:** https://YOUR-APP.vercel.app
-
+**Live demo:** https://
+2-d-canvas.vercel.app
 ![Landing page](docs/landing.png)
 
 ![Editor with a small architecture diagram](docs/editor.png)
